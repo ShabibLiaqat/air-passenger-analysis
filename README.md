@@ -20,6 +20,14 @@ The original project folder was named “Air Freight Analysis”, but its source
 - Regional volumes, leading economies, and income-group shares.
 - Year, region, income-group, and economy filters plus a CSV download of your selection.
 
+## Findings in the historical snapshot
+
+- **2020 contraction:** passenger carriage fell by **60.2%** versus 2019 across the 149 economies reporting in both years.
+- **2021 recovery:** volumes increased by **28.7%** versus 2020 across 151 matched reporting economies.
+- **Scale and concentration:** the 2021 selection totals **2.28 billion** passenger carriages across 155 reporting economies. The United States and China are the largest reported contributors.
+
+These figures refer to the stored historical data and the stated reporting coverage. They do not describe current aviation conditions. See the [portfolio case study](docs/portfolio-story.md).
+
 ## Architecture and skills
 
 The original Power BI report contains an observation table linked to country metadata, four DAX measures, and a dashboard with cards, trend/comparison charts, and slicers. Its embedded tables were extracted locally with [PBIXRay](https://github.com/Hugoberry/pbixray), preserving the original data values and model expressions.
