@@ -1,0 +1,26 @@
+[
+  {
+    "FromTableName":"Data",
+    "FromColumnName":"Country Code",
+    "ToTableName":"Metadata - Countries",
+    "ToColumnName":"Country Code",
+    "IsActive":1,
+    "Cardinality":"M:1",
+    "CrossFilteringBehavior":"Both",
+    "FromKeyCount":236,
+    "ToKeyCount":null,
+    "RelyOnReferentialIntegrity":0
+  },
+  {
+    "FromTableName":"Data",
+    "FromColumnName":"Indicator Name",
+    "ToTableName":"Metadata - Indicators",
+    "ToColumnName":"INDICATOR_NAME",
+    "IsActive":1,
+    "Cardinality":"M:1",
+    "CrossFilteringBehavior":"Both",
+    "FromKeyCount":4,
+    "ToKeyCount":null,
+    "RelyOnReferentialIntegrity":0
+  }
+]

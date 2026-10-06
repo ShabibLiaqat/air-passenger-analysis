@@ -1,0 +1,15 @@
+Total Passenger Carried =
+CALCULATE(SUM(Data[Value]))
+
+Passenger Carried by High Income =
+CALCULATE([Total Passenger Carried] , 'Metadata - Countries'[IncomeGroup] = "High Income")
+
+Passenger Carried by Low Income =
+CALCULATE([Total Passenger Carried] , 'Metadata - Countries'[IncomeGroup] = "Low Income")
+
+Passenger Carried by Middle Income =
+
+CALCULATE(
+    [Total Passenger Carried],
+    'Metadata - Countries'[IncomeGroup] IN {"Upper middle income", "Lower middle income"}
+)
