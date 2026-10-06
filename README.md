@@ -2,6 +2,8 @@
 
 [![Build dashboard showcase](https://github.com/ShabibLiaqat/air-passenger-analysis/actions/workflows/build-showcase.yml/badge.svg)](https://github.com/ShabibLiaqat/air-passenger-analysis/actions/workflows/build-showcase.yml)
 
+**[Open the interactive dashboard](https://air-passenger-analysis.streamlit.app/)**
+
 A Power BI analysis adapted into a public-facing Streamlit dashboard exploring airline passenger traffic across reporting economies, regions, and income groups from **1970 to 2021**.
 
 ![Streamlit dashboard preview](Screenshot/dashboard.png)
@@ -72,7 +74,9 @@ python -m src.capture_dashboard
 
 ## Public interactive hosting
 
-Deploy this repository on [Streamlit Community Cloud](https://share.streamlit.io/) with branch **`main`**, entry file **`app.py`**, and Python **3.12**. No API credentials are needed. Once deployed, add the assigned public URL near the top of this README.
+The interactive dashboard is live at **[air-passenger-analysis.streamlit.app](https://air-passenger-analysis.streamlit.app/)**. Visitors can explore it in their browser without installing Python or Power BI.
+
+It is hosted on Streamlit Community Cloud using branch **`main`**, entry file **`app.py`**, and Python **3.12**. No API credentials are needed. Repository updates are picked up by the hosted app; the underlying dataset remains the historical 1970–2021 snapshot.
 
 ## Power BI materials
 
